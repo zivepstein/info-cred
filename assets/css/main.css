@@ -1672,7 +1672,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: rgba(11, 2, 5, 1) url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1850,7 +1850,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: rgba(11, 2, 5, 1) !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2002,13 +2002,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: rgba(11, 2, 5, 1) url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: rgba(11, 2, 5, 1) url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2035,7 +2035,6 @@ input, select, textarea {
 			}
 
 			.wrapper.style3 .image {
-				border: solid 10px #fff;
 			}
 
 /* Page Wrapper */
@@ -2061,7 +2060,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
+		background: url("../../images/banner.gif") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2091,15 +2090,13 @@ input, select, textarea {
 
 		#logo h1 {
 			font-weight: 900;
-			text-transform: uppercase;
 			color: #fff;
 			font-size: 2em;
-			letter-spacing: 0.25em;
 		}
 
 		#logo p {
 			color: #eee;
-			color: rgba(255, 255, 255, 0.5);
+			color: white;
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
 			display: block;
@@ -2261,7 +2258,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: rgba(11, 2, 5, 1);
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
