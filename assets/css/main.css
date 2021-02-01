@@ -37,6 +37,15 @@ ol, ul {
 	list-style: none;
 }
 
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+td{
+	padding-left: 5px;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -2122,7 +2131,7 @@ input, select, textarea {
 		#nav > ul {
 			display: inline-block;
 			border-radius: 0;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
 			padding: 0 1.5em 0 1.5em;
 		}
 
