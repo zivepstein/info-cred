@@ -2993,3 +2993,7 @@ input, select, textarea {
 						}
 
 	}
+
+.row-header, .row-headers-background {
+	display: none;
+}
